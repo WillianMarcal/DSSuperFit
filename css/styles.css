@@ -52,9 +52,46 @@ header {
     width: 30px;
     height: 30px;
     margin: 35px 10px;
+    cursor: pointer;
 }
 
 .logo a {
     padding: 40px 0px;
     color: var(--text-color-white);
+}
+
+#Our-Space {
+    background-color: var(--color-bg-blue);
+    display: flex;
+    align-items: center;
+}
+
+#Our-Space h1 {
+    margin: 20px 0px 40px 0px;
+    color: var(--text-color-white);
+    font-size: 32px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-Space {
+    background-color: var(--color-bg-gray);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.card-Space h2 {
+    font-size: 20px;
+    color: var(--color-bg-black);
+}
+
+.card-Space p {
+    font-size: 14px;
+    color: var(--color-bg-black);
 }
