@@ -92,3 +92,36 @@ header {
     font-size: 14px;
     color: var(--color-bg-black);
 }
+
+#Modalities {
+    background-color: var(--text-color-white);
+    display: flex;
+    align-items: flex-start;
+}
+
+#Modalities h1 {
+    color: var(--text-color-red);
+    font-size: 32px;
+    margin: 20px 0px 40px 0px;
+}
+
+.card-modalities {
+    height: 106px;
+    background-color: var(--color-bg-blue);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-modalities h2 {
+    font-size: 20px;
+    color: var(--text-color-white);
+}
+
+.card-modalities p {
+    font-size: 14px;
+    color: var(--color-bg-gray);
+}
