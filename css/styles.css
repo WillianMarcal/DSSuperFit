@@ -63,27 +63,24 @@ header {
 #Our-Space {
     background-color: var(--color-bg-blue);
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #Our-Space h1 {
     margin: 20px 0px 40px 0px;
     color: var(--text-color-white);
     font-size: 32px;
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .card-Space {
+    height: 127px;
     background-color: var(--color-bg-gray);
     padding: 20px;
     border-radius: 8px;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 20px auto;
 }
 
 .card-Space h2 {
