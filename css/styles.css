@@ -125,3 +125,49 @@ header {
     font-size: 14px;
     color: var(--color-bg-gray);
 }
+
+footer {
+    background-color: var(--color-bg-black);
+    height: 262px;
+}
+
+.footer-content {
+    height: 262px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content p {
+    font-size: 14px;
+    color: var(--text-color-white);
+    margin-top: 25px;
+}
+
+.footer-content address {
+    font-size: 14px;
+    color: var(--text-color-white);
+    margin-bottom: 60px;
+}
+
+.sociais {
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.sociais img {
+    margin: 5px 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.sociais a {
+    font-size: 14px;
+    color: var(--text-color-white);
+    margin-top: 66px;
+}
