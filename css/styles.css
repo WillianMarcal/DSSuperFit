@@ -129,26 +129,31 @@
     footer {
         background-color: var(--color-bg-black);
         height: 262px;
+        padding: 60px;
     }
     
     .footer-container {
         width: 100%;
-        height: 262px;
         max-width: 200px;
         margin: 0 auto;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: column;
-        padding: 60px 0px;
     }
     
-    .footer-container p {
+    .address {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .address p {
         font-size: 14px;
         color: var(--text-color-white);
     }
     
-    .footer-container address {
+    .address address {
         font-size: 14px;
         color: var(--text-color-white);
     }
@@ -157,16 +162,23 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        text-align: center;
     }
     
-    .sociais img {
+    .social-link {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .social-link p {
+        color: var(--text-color-white);
+        font-size: 14px;
+    }
+    
+    .social-link img {
         width: 30px;
         height: 30px;
         cursor: pointer;
-        margin-right: 10px;
-    }
-    
-    .sociais a {
-        font-size: 14px;
-        color: var(--text-color-white);
+        margin: 5px 10px;
     }
